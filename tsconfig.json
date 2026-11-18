@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES2024",
+		"module": "preserve",
+		"moduleResolution": "bundler",
+		"lib": ["ES2024", "DOM", "DOM.Iterable"],
+		"types": [
+			"vite/client",
+			"vite-plugin-monkey/client",
+			"vite-plugin-monkey/style",
+			"vitest/globals"
+		],
+		"jsx": "react-jsx",
+		"jsxImportSource": "preact",
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"noImplicitReturns": true,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"strict": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedSideEffectImports": true,
+		"allowImportingTsExtensions": true,
+		"allowArbitraryExtensions": true,
+		"skipLibCheck": true,
+		"moduleDetection": "force",
+		"noEmit": true
+	}
+}
